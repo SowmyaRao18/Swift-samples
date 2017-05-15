@@ -10,7 +10,8 @@ import Cocoa
 
 // Storm Controller which handles loading of Storm name and Images
 
-class StormWindowController: NSWindowController,NSTableViewDelegate {
+class StormWindowController: NSWindowController,NSTableViewDelegate
+{
 
     // MARK: Properties
     @IBOutlet weak var tableView : NSTableView!
